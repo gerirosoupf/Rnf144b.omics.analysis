@@ -42,7 +42,7 @@ filters:
   - ../templates/scholarly-metadata.lua
   - ../templates/author-info-blocks.lua
   - ../templates/pagebreak.lua
-bibliography: references.bib
+bibliography: "`r rbbt::bbt_write_bib('bibliography.json', overwrite = TRUE)`" 
 csl: "../templates/journal-of-archaeological-science.csl" # Insert path for the bib-style
 abstract: |
   Text of abstract
@@ -65,6 +65,8 @@ Highlights: `r rmarkdown::metadata$highlights`
 # Introduction
 
 Here is a citation [@Marwick2017]
+
+Here is another citation with Zotero [@janicDNARepairProcesses2018]
 
 # Background
 
