@@ -1,0 +1,15 @@
+Package: Rnf144b.omics.analysis
+Title: Multiple omics analysis of Rnf144b E3 Ubiquitin ligase in mouse
+Version: 0.0.0.9000
+Authors@R:
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: This package contains the code for a reproducible analysis of the Rnf144b E3 Ubiquitin ligase in the mouse (Mus Musculus) organism.
+License: MIT + file LICENSE
+ByteCompile: true
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: here
+Suggests: devtools,
+    git2r
